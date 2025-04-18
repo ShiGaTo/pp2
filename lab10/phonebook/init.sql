@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS phonebook (
+  username VARCHAR(50) PRIMARY KEY,
+  phone    VARCHAR(20) NOT NULL
+);
